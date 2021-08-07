@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Content = () => {
-    return (
-        <main className="bg-green-200 flex-1">
-            Content
-        </main>
-    )
-}
+  return <main className="bg-green-200 flex-1">Content</main>;
+};
 
-export default Content
+export default Content;
