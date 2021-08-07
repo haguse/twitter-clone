@@ -1,11 +1,17 @@
-import React from 'react'
+import React from "react";
+import Container from "./layout/Container";
+import Content from "./layout/Content";
+import Sidebar from "./layout/Sidebar";
+import Widgets from "./layout/Widgets";
 
 const App = () => {
   return (
-    <div>
-      App
-    </div>
-  )
-}
+    <Container>
+      <Sidebar />
+      <Content />
+      <Widgets />
+    </Container>
+  );
+};
 
-export default App
+export default App;
