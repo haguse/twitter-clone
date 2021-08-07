@@ -1,5 +1,6 @@
 import React from "react";
 import { SearchIcon } from "../icons/icon";
+import { Timeline } from "react-twitter-widgets";
 
 const Widgets = () => {
   return (
@@ -12,7 +13,17 @@ const Widgets = () => {
           className="placeholder-gray-dark bg-transparent focus:outline-none w-full text-sm focus-within:"
         />
       </div>
-      <div className="mt-5"></div>
+      <div className="mt-5">
+        <Timeline
+          dataSource={{
+            sourceType: "profile",
+            screenName: "TwitterDev",
+          }}
+          options={{
+            height: "1000",
+          }}
+        />
+      </div>
     </aside>
   );
 };
