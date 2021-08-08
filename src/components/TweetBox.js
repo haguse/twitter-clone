@@ -2,6 +2,7 @@ import React from "react";
 import { EmojiIcon, GIFIcon, ImageIcon, PollIcon } from "../icons/icon";
 
 const TweetBox = () => {
+
   return (
     <div className="flex-1 flex flex-col mt-2 px-2">
       <textarea
