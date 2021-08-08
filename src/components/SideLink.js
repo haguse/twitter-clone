@@ -7,7 +7,7 @@ const SideLink = ({ name, Icon, active, onMenuItemClick }) => {
     <li onClick={() => onMenuItemClick(name)}>
       <a
         href={name.toLowerCase()}
-        className="block text-lg group mb-2 pointer-events-none cursor-pointer"
+        className="block text-lg group mb-1 pointer-events-none cursor-pointer"
       >
         <div className="inline-block">
           <div
