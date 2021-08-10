@@ -25,3 +25,4 @@ You will also see any lint errors in the console.
 #### Built with
 * [ReactJS](https://reactjs.org/)
 * [react-twitter-widgets](https://www.npmjs.com/package/react-twitter-widgets)
+* [Tailwind CSS](https://tailwindcss.com/)
